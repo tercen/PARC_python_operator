@@ -1,14 +1,10 @@
-# Template python operator
+# PARC operator
 
 ### Decription
 
-This operator leverages Python to perform a median computation. It can be used as a skeleton to develop Pathon operators in Tercen.
+PARC, "phenotyping by accelerated refined community-partitioning" - is a fast, automated, combinatorial graph-based clustering approach that integrates hierarchical graph construction (HNSW) and data-driven graph-pruning with the new Leiden community-detection algorithm.
 
-### install python dependencies
+### Reference
 
-`py_install("pandas")`
+Based on the [PARC library](https://github.com/ShobiStassen/PARC).
 
-### renv
-
-`renv::use_python()`
-`renv::init()`
