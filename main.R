@@ -5,7 +5,7 @@ library(reticulate)
 reticulate::source_python("main.py")
 
 ctx = tercenCtx()
-ctx %>%
+labs <- ctx %>%
   as.matrix(fill = 0) %>%
   t() %>%
   run_py_script() %>% 
